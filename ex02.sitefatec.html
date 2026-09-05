@@ -2,36 +2,83 @@
 <html>
 <head>
     <meta charset="UTF-8">
-        <title>Exercício 02 - Site Fatec</title>
+    <title>Exercício 02 - Site Fatec</title>
 </head>
-<body style="font-family: Arial, sans-serif; padding: 60px;">
-    <h2 style="color: #0c7489; font-weight: normal;">Desenvolvimento de Software Multiplataforma</h2>
-    <div style="border-bottom: 2px solid #b31b1b; width: 80%; margin-bottom: 48px;">
-        <div style="border-bottom: 6px solid #b31b1b; width: 15%; border-radius: 3px; position: relative; top: 3px;"></div>  
-    </div>
-    <table style="width: 80%; text-align: center; border: none; margin-bottom: 40px">
-        <tr>
-            <td style="width: 33%;">
-                <img src="icone-sol.png" alt="Ícone Matutino" width="80">
-            </td>
-            <td style="width: 33%;">
-                <img src="icone-relogio.png" alt="Ícone Horário" width="40">
-            </td>
-            <td style="width: 33%;">
-                <img src="icone-professor.png" alt="Ícone Presencial" width="50">
-            </td>
-        </tr>
+<body style="font-family: Arial, sans-serif; padding: 40px; display: flex; justify-content: center;">
+    
+    <!-- Container principal para limitar a largura e centralizar -->
+    <div style="width: 85%; max-width: 1000px;">
+        
+        <!-- Título -->
+        <h2 style="color: #0c7489; font-weight: normal; font-family: Georgia, serif; margin-bottom: 10px;">
+            Desenvolvimento de Software Multiplataforma
+        </h2>
+        
+        <!-- Linha divisória com duas cores/espessuras -->
+        <div style="border-bottom: 2px solid #b31b1b; width: 100%; margin-bottom: 40px; position: relative;">
+            <div style="position: absolute; top: -5px; left: 0; border-bottom: 8px solid #a31515; width: 15%; border-radius: 4px;"></div>  
+        </div>
 
-        <tr>
-            <td>
-                <p style="font-weight: bold; font-size: 14px; margin-top: 5px;">Matutino</p>
-            </td>
-            <td>
-                <p style="font-weight: bold; font-size: 14px; margin-top: 5px;">08 às 11h30</p>    
-            </td>
-            <td>
-                <p style="font-weight: bold; font-size: 14px; margin-top: 5px;">Presencial</p>
-            </td>
-        </tr>
+        <!-- Tabela Superior: Ícones de Informação -->
+        <table style="width: 100%; text-align: center; border: none; margin-bottom: 40px;">
+            <tr>
+                <td style="width: 33%;">
+                    <img src="icone-sol.png" alt="Ícone Matutino" height="70">
+                </td>
+                <td style="width: 33%;">
+                    <img src="icone-relogio.png" alt="Ícone Horário" height="70">
+                </td>
+                <td style="width: 33%;">
+                    <img src="icone-professor.png" alt="Ícone Presencial" height="70">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="font-weight: bold; font-size: 14px; margin-top: 10px; color: #555;">Matutino</p>
+                </td>
+                <td>
+                    <p style="font-weight: bold; font-size: 14px; margin-top: 10px; color: #555;">08h às 11h30</p>    
+                </td>
+                <td>
+                    <p style="font-weight: bold; font-size: 14px; margin-top: 10px; color: #555;">Presencial</p>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Informações do Coordenador e Texto Descritivo -->
+        <div style="margin-bottom: 50px; color: #777; font-size: 15px; line-height: 1.6;">
+            
+            <p style="margin-bottom: 20px; font-size: 14px;">
+                <strong style="color: #444;">Coordenador:</strong> Prof. Me. Edson Company Colalto Junior
+                <strong style="color: #444; margin-left: 5px;">E-Mail:</strong> f111coord.dsm@cps.sp.gov.br 
+            </p>
+
+            <p style="text-align: justify;">
+                Entre as diversas disciplinas do curso estão matemática para computação, álgebra linear, redação técnica e ética profissional e patente, metodologias ágeis para gestão de projetos de software e inglês. O currículo inclui ainda conhecimentos mais específicos da área, como lógica de programação e algoritmo, programação para desktop, dispositivos móveis e para web. Experiência do usuário, computação em nuvem, inteligência artificial, segurança da informação, internet das coisas, banco de dados e engenharia de software também integram o programa do curso. O tecnólogo em Desenvolvimento de Software Multiplataforma realiza a coleta e análise estatística de dados para apoiar clientes nas tomadas de decisão. Outra atribuição da área é a coordenação de projetos e equipes de desenvolvimento de software. O profissional pode projetar, desenvolver e testar softwares para múltiplas plataformas, aplicações em nuvem e internet das coisas. Entre outras habilidades, cabe ao especialista a apresentação de soluções tecnológicas a partir de conceitos, métodos e tecnologias de linguagens de programação, banco de dados, engenharia de software, segurança da informação e inteligência artificial.
+            </p>
+            
+        </div>
+
+        <!-- Tabela Inferior: Ícones de PDF -->
+        <table style="width: 100%; text-align: center; border: none;">
+            <tr>
+                <td style="width: 50%;">
+                    <img src="icone-pdf.png" alt="PDF Horário Manhã" height="70">
+                </td>
+                <td style="width: 50%;">
+                    <img src="icone-pdf.png" alt="PDF Projeto Pedagógico" height="70">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="font-weight: bold; font-size: 14px; margin-top: 10px; color: #00b5cc;">Horário Manhã</p>
+                </td>
+                <td>
+                    <p style="font-weight: bold; font-size: 14px; margin-top: 10px; color: #00b5cc;">Projeto Pedagógico</p>
+                </td>
+            </tr>
+        </table>
+
+    </div>
 </body>
 </html>
